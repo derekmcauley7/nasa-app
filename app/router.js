@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('nasa', {path: '/'}, function(){
+  });
+  this.route('nasa-result');
 });
 
 export default Router;
