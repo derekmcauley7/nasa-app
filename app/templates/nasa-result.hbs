@@ -4,8 +4,12 @@
     <br>
       <img src= "{{model.collection.items.0.links.0.href}}" class="img-thumbnail"/>
       <br>
-  <b><a href="{{model.collection.items.0.links.0.href}}"> Image link</a></b>
-    <br>
+      <b><a href="{{model.collection.items.0.links.0.href}}"> Image link</a></b>
+    <br>    <br>
+    <ul>
+      <li>image 1</li>
+    </ul>
   </div>
   <button type="button" class="btn btn-success" {{action 'goBack' comment }}>Go back to search</button>
+
 {{outlet}}

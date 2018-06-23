@@ -2,7 +2,7 @@
     <div class="form-group">
       <label for="comment">Type in an image search query</label>
       <br>
-      {{textarea type="text" value=searchTerm cols="80" rows="2"}}
+      {{input type="text" value=searchTerm  rows="2" class="form-control"}}
     </div>
     <button type="button" class="btn btn-primary" {{action 'searchClicked' searchTerm }}>Search</button>
 </form>

@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('nasa', {path: '/'}, function(){
   });
   this.route('nasa-result');
+  this.route('notfound', {path: '*path'});
 });
 
 export default Router;

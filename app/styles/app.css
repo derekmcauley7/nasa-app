@@ -3,3 +3,13 @@ body{
   padding: 20px;
   text-align: center;
 }
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.form-control{
+  max-width: 70%;
+  margin: 0 auto;
+    float: none;
+}
