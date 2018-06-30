@@ -1,6 +1,5 @@
 import Route from '@ember/routing/route';
 import $ from 'jquery';
-
 export default Route.extend({
 
   model: function() {
@@ -9,8 +8,11 @@ export default Route.extend({
 },
 
 actions: {
-  goBack: function(){
-    this.transitionTo("/");
+  function(){
+    this.transitionTo("nasa-result2");
+  },
+  loadNext: function(){
+    this.transitionTo("nasa-result3");
   }
 }
 });
