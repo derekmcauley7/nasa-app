@@ -8,8 +8,8 @@ export default Route.extend({
 },
 
 actions: {
-  function(){
-    this.transitionTo("nasa-result2");
+  goBack: function(){
+    this.transitionTo("/");
   },
   loadNext: function(){
     this.transitionTo("nasa-result3");
